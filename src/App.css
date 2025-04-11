@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Inter, sans-serif;
+}
+header {
+    display: flex;
+    background-color: #FFF7ED;
+    align-items: center;
+    height: 111.62352752685547px;
+    justify-content: space-evenly;
+}
+header a {
+    color: black;
+    font-weight: 900;
+    text-decoration: none;
+    font-size: 34px;
+
+} 
+nav a {
+    color: black;
+    font-weight: 900;
+    text-decoration: none;
+    font-size: 18px;
+    margin-left: 20px;
+}
+nav a:hover {
+    color: #FF6F20;
+}
+nav a:focus {
+    color: #FF6F20;
+}
+nav a:active {
+    color: #FF6F20;
+}
