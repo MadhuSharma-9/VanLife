@@ -1,0 +1,120 @@
+/* Van detail page container */
+.van-detail-wrapper {
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: #f9f9f9;
+    min-height: 80vh;
+    align-items: center;
+}
+
+/* Van image styling */
+.van-detail-image {
+    width: 50%; /* Image takes half the screen width */
+    height: auto;
+    object-fit: cover;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* Van detail card containing image and content */
+.van-detail-card {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+/* Content section for van details */
+.van-detail-content {
+    width: 45%; /* Content takes up 45% of the screen */
+    padding: 2rem;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* Van name styling */
+.van-detail-name {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 1rem;
+}
+
+/* Price styling */
+.van-detail-price {
+    font-size: 2rem;
+    color: #FF6F20;
+    font-weight: bold;
+    margin-bottom: 1.5rem;
+}
+
+/* Type badge styling */
+.van-detail-type {
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    border-radius: 6px;
+    color: white;
+    font-size: 1.1rem;
+    margin-bottom: 1rem;
+    text-transform: capitalize;
+}
+
+.van-detail-type.simple {
+    background-color: #0077b6;
+}
+
+.van-detail-type.rugged {
+    background-color: #2a9d8f;
+}
+
+.van-detail-type.luxury {
+    background-color: #e76f51;
+}
+
+/* Seats count */
+.van-detail-seater {
+    font-size: 1.2rem;
+    color: #555;
+    margin-bottom: 1.5rem;
+}
+
+/* Description styling */
+.van-detail-description {
+    font-size: 1.3rem;
+    color: #444;
+    line-height: 1.6;
+    margin-bottom: 2rem;
+}
+
+/* Rent button styling */
+.rent-button {
+    display: block;
+    width: 100%;
+    max-width: 250px;
+    background-color: #FF6F20;
+    color: white;
+    font-size: 1.4rem;
+    text-align: center;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 1rem;
+    transition: all 0.3s ease-in-out;
+}
+
+.rent-button:hover {
+    background-color: #e75c00; /* Darker shade for hover */
+    transform: scale(1.05);
+}
+
+/* Loading state */
+.loading {
+    font-size: 2rem;
+    color: #333;
+    text-align: center;
+}
